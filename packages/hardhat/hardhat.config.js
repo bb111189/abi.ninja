@@ -286,6 +286,13 @@ module.exports = {
         mnemonic: mnemonic(),
       },
     },
+    zero: {
+      url: 'https://zero.alt.technology/',
+      chainId: 4000003,
+      accounts: {
+        mnemonic: mnemonic(),
+      },
+    },
   },
   solidity: {
     compilers: [

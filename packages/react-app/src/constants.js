@@ -119,6 +119,16 @@ export const NETWORKS = {
     etherscanEndpoint: "https://api.gnosisscan.io",
     apiKey: ETHERSCAN_API_KEY,
   },
+  zeroChain: {
+    name: "zeroChain",
+    color: "#0d8e74",
+    chainId: 4000003,
+    price: 1,
+    blockExplorer: "https://zero-explorer.alt.technology/",
+    rpcUrl: "https://zero.alt.technology/",
+    etherscanEndpoint: "https://zero-explorer.alt.technology/",
+    apiKey: ETHERSCAN_API_KEY,
+  },
 };
 
 export const NETWORK = chainId => {
